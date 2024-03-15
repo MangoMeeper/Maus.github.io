@@ -63,7 +63,6 @@
 			<fieldset class="index">
 				<legend>gear and prices</legend>
 				<a href="#TMM">Tools</a>		
-					
 				<a href="#WaA">Weapons and Armor</a>	
 				<a href="#LS">Light Sources</a>	
 				<a href="#CLOTH">Clothing</a>	
@@ -132,7 +131,7 @@ Shopkeepers often give you small
 discounts or may gift you items.
 <br>
 <a>Level 5:</a> Most everyone has heard
-of you, mouse or not. Nobles seek
+of you, maus or not. Nobles seek
 you out for special missions and
 will even let you lead a group of
 their soldiers. Songs and stories
@@ -272,7 +271,80 @@ Hirelings have 6 inventory slots: two paw, two body, two pack.<br>
 				<td>+1</td>
 				<td>d2</td>
 				<td>30p</td>
-			</tr>			
+			</tr>		
+			<tr>
+				<td>Mason        </td>
+				
+				<td>+4</td>
+				<td>d6</td>
+				<td>10p</td>
+			</tr>	
+			<tr>
+				<td>Chef        </td>
+				<td>+1</td>
+				<td>d2</td>
+				<td>5p</td>
+			</tr>	
+			<tr>
+				<td>Steel worker        </td>
+				<td>+3</td>
+				<td>d6</td>
+				<td>5p</td>
+			</tr>	
+			<tr>
+				<td>Bomb maker        </td>
+				<td>+3</td>
+				<td>d1</td>
+				<td>10p</td>
+			</tr>	
+			<tr>
+				<td>Rope maker        </td>
+				<td>+1</td>
+				<td>d3</td>
+				<td>10p</td>
+			</tr>	
+			<tr>
+				<td>Carpenter        </td>
+				<td>+3</td>
+				<td>d6</td>
+				<td>10p</td>
+			</tr>	
+			<tr>
+				<td>Tailor        </td>
+				<td>+1</td>
+				<td>d6</td>
+				<td>10p</td>
+			</tr>	
+			<tr>
+				<td>Electrician        </td>
+				<td>+2</td>
+				<td>d1</td>
+				<td>10p</td>
+			</tr>	
+			<tr>
+				<td>Plumber        </td>
+				<td>+1</td>
+				<td>d3</td>
+				<td>10p</td>
+			</tr>	
+			<tr>
+				<td>Historian        </td>
+				<td>+1</td>
+				<td>d1</td>
+				<td>15p</td>
+			</tr>	
+			<tr>
+				<td>Tracker        </td>
+				<td>+4</td>
+				<td>d1</td>
+				<td>15p</td>
+			</tr>	
+			<tr>
+				<td>Negotiator        </td>
+				<td>+1</td>
+				<td>d1</td>
+				<td>20p</td>
+			</tr>		
 		  </table> 
 	
 	</div>
@@ -704,6 +776,24 @@ by an ally and take a short rest.<br>
 If an incapacitated creature is left untended for
 6 exploration <a>Turns</a>, they die.
 		</p>
+
+		<p>You can choose to succed the STR save caused by STR damage by choosing one of the following effects.
+<ol>
+<li>You lose something (advantage, position, initiative, etc.)
+	
+
+
+</li>
+<li>
+One of your Items cracks, breaks
+	
+</li>
+<li>You're out of it for the moment (Lost your Next Action)
+	</li>
+	<li>Suffer a condition (Weakened, Dazed, Miserable) </li>
+</ol>
+
+		</p>
 	
 	</div>
 </div>
@@ -795,7 +885,7 @@ spell and <a>clear all</a> of its usage dots.
 <div class="modal" id="Mis">
 	<a href="#_" class="modal-close"></a>
 	<div class="modal-dialog">
-		<h2>Upcast & Miscasts</h2>
+		<h2>Upcast & Miscasts & Feral Magic</h2>
 		<p>
 			Whenever <a>one or more 1s</a> are rolled when casting a
 spell, the caster increases the <a>[DICE]</a> by 1 for each
@@ -807,11 +897,19 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 <a>Drained</a> Condition. <br>
 
 1's and 6's cancel each other out.</p>
+
+<p><a>Feral Magic</a>
+When you either Upcast or Miscast, Feral Magic as a chance to occur. Roll a D20, on a 20, roll a D100 to see what Feral Magic occurs. Each time you do not cause Feral magic,
+the trigger number extends  (meaning the next roll will trigger a Feral Magic on a 19-
+20, the next time a blast is not triggered it will expand to 18-
+20, and so on).
+
+</p>
 		</p>
 	
 	</div>
 </div>
-<div class="modal" id="LoS">
+<div class="modal" id="LoS"  >
 	<a href="#_" class="modal-close"></a>
 	<div class="modal-dialog">
 		<h2>List Of Spells</h2>
@@ -824,7 +922,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 				 
 				</tr>
 				<tr>
-					<td>Fireball</td>
+					<td>1. Fireball</td>
 					<td>Shoot a fireball up to 24". Deal [SUM] + [DICE]
 						damage to all creatures within 6".</td>
 					<td>Burn in the heart of a raging fire for three
@@ -833,7 +931,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Heal</td>
+					<td>2. Heal</td>
 					<td>Heal [SUM] STR damage and remove the
 						Injured Condition from a creature.</td>
 					<td>Cut self for d6 STR damage, sprinkle the
@@ -842,7 +940,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Magic Missile</td>
+					<td>3. Magic Missile</td>
 					<td>Deal [SUM] + [DICE] damage to a creature
 						within sight.</td>
 					<td>Drop from a height of at least 30ft.
@@ -851,7 +949,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Fear</td>
+					<td>4. Fear</td>
 					<td>Give the Frightened Condition to [DICE]
 						creatures.</td>
 					<td>Receive the Frightened Condition from a
@@ -860,7 +958,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Darkness</td>
+					<td>5. Darkness</td>
 					<td>Create a [SUM] x 2" diameter sphere of
 						pure darkness for [DICE] Turns.</td>
 					<td>Leave uncovered in a lightless place for
@@ -869,7 +967,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Restore</td>
+					<td>6. Restore</td>
 					<td>Remove Exhausted or Frightened Condition
 						from [DICE] + 1 creatures</td>
 					<td>Bury in a peaceful field or riverbank for
@@ -878,7 +976,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Be Understood</td>
+					<td>7. Be Understood</td>
 					<td>Make your meaning clear to [DICE] crea-
 						tures of another species for [DICE] Turns.</td>
 					<td>Give away freely to a creature of another
@@ -887,7 +985,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Ghost Beetle </td>
+					<td>8. Ghost Beetle </td>
 					<td>Create an illusory beetle that can carry 6
 						inventory slots for [DICE] x 6 Turns. </td>
 					<td>Bury in a beetle graveyard for three nights.</td>
@@ -895,7 +993,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Light</td>
+					<td>9. Light</td>
 					<td>Force [DICE] creatures to make a WIL save
 						or become stunned. Alternately, create
 						light as bright as a torch for [SUM] turns.</td>
@@ -905,7 +1003,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Invisible Ring </td>
+					<td>10. Invisible Ring </td>
 					<td>Creates [DICE] x 6" ring of force. It is invisi-
 						ble and immovable. Lasts [DICE] Turns.</td>
 					<td>Build an iron ring the same size as last cast.
@@ -914,7 +1012,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Knock</td>
+					<td>11. Knock</td>
 					<td>Open a door or container, as if a Save were
 						made with STR score of 10 + [DICE] x 4.</td>
 					<td>Put in a locked box, inside a locked box,
@@ -923,7 +1021,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Grease</td>
+					<td>12. Grease</td>
 					<td>Cover [DICE] x 6" area in slippery, flam-
 						mable grease. Creatures in the area must
 						make a DEX save or fall prone.</td>
@@ -933,7 +1031,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Grow</td>
+					<td>13. Grow</td>
 					<td>Grow a creature to [DICE] + 1 times its
 						original size for 1 Turn.</td>
 					<td>Leave in the highest branches of a tall tree
@@ -942,7 +1040,7 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Invisibility</td>
+					<td>14. Invisibility</td>
 					<td>Make creature invisible for [DICE] Turns.
 						Any movement reduces duration by 1 Turn.</td>
 					<td>Go a day without opening your eyes once,
@@ -951,13 +1049,381 @@ spell, the caster takes <a>d6 damage</a> to <a>WIL</a> for each
 			
 				</tr>
 				<tr>
-					<td>Catnip</td>
+					<td>15. Catnip</td>
 					<td>Turn object into an irresistible lure for cats.
 						Lasts [DICE] Turns. </td>
 					<td>Give a cat a gift it truly desires.</td>
 					
 			
 				</tr>
+				<tr>
+					<td>16. Vegetal Barrier</td>
+					<td>A [SUM]” long wall of plants sprouts from the
+						ground for [DICE] turns. Any creature atemping
+						to cross it or climb it must succeed a STR save or
+						get tangled in it.</td>
+					<td>Throw spell over a wall at least 6’ tall.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>17. Beanstalk Ladder</td>
+					<td>An easily-climbable, [SUM]” tall beanstalk
+						sprouts from the ground for [DICE] turns.
+						Climbing it doesn’t require a save.</td>
+					<td>Climb a vertical surface holding the spell on one
+						paw. Cannot be the Beanstalk.</td>
+					
+			
+				</tr>
+
+				<tr>
+					<td>18. Vine Trap</td>
+					<td>Vines sprout from the ground in a [SUM]” circle
+						(the center point can be any place you have
+						direct line of sight with). Any creature standing
+						in this circle must succeed a DEX save or get
+						tied up. The vines receed after [DICE] turns,
+						freeing any tied up creature in the proccess.</td>
+					<td>Wrap spell in vines and wait until they rot.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>19. Vegetal Friend</td>
+					<td>A seed you hold in your other paw sprouts arms
+						and legs and acts as a party member. It turns
+						back into a regular seed after [DICE] turns, or
+						until it takes critical damage.</td>
+					<td>Bury spell for a week, watering daily.</td>
+					
+			
+				</tr>
+
+				<tr>
+					<td>20. Vine Whip</td>
+					<td>Your hand produces a [DICE]’ long whip. It can
+						be used hit a creature (for [SUM] damage), or to
+						attempt to lasso or swing from an object.</td>
+					<td>Get whipped with a vine for d6 damage while
+						holding the spell.</td>
+					
+			
+				</tr>
+
+				<tr>
+					<td>21. Barkskin</td>
+					<td>Your skin (or one of your allies’) covers itself in a
+						substance similar to tree bark, granting [DICE]
+						armor for [SUM] turns.</td>
+					<td>Rub spell with a piece of skin recently peeled-off
+						from an animal.</td>
+					
+			
+				</tr>
+				
+				<tr>
+					<td>22. Illusion</td>
+					<td>[DICE] creatures must
+						succeed a WIL save or start
+						hallucinating for [SUM] rounds.
+						Caster must succed a WIL save to
+						control what they see, otherwise it’s
+						up to GM discretion.</td>
+					<td>Use a piece of chalk to
+						draw a lifesize replica of the last
+						hallucination produced by the spell.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>23. Sleep</td>
+					<td>[DICE] creatures must
+						succeed a WIL save or fall asleep
+						for [SUM] turns, or until woken up
+						by external factors.</td>
+					<td>Go without sleep for a
+						number of days equal to the dice
+						the spell was last cast with.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>24. Paralyze</td>
+					<td>For the next [DICE]+[SUM]
+						rounds, a creature must succeed a
+						WIL save every round, or be
+						completely unable to move that
+						round.</td>
+					<td>Stay completely still for
+						24 hours while holding the spell.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>25. Blind</td>
+					<td>[DICE] creatures must
+						succeed a WIL save or be
+						completely unable to see for the
+						next [SUM] rounds.</td>
+					<td>Look at the sun until yu
+						are temporarily blinded.</td>
+					
+			
+				</tr>
+
+				<tr>
+					<td>26. Charm</td>
+					<td>[DICE] creatures must
+						succeed a WIL save or be forced to
+						be neutral (if hostile) or friendly (if
+						neutral) towards the caster for the
+						next [SUM] turns. Dispels if the
+						caster harms them.</td>
+					<td>Convince a group of
+						hostile creatures not to attack you.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>27. Fortify Mind</td>
+					<td>Remove all mental
+						conditions from [DICE] creatures,
+						plus grant them immunity from all
+						mental conditions fro [SUM] hours.</td>
+					<td>Acquire 4 mental
+						conditions while holding the spell.</td>
+					
+			
+				</tr>
+
+				<tr>
+					<td>28. See Death</td>
+					<td>Force [DICE] creatures to
+						make a WIL save or take the Mad
+						condition.</td>
+					<td>Have your HP depleted
+						to 0 while carrying this book.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>29. Drain Vigor</td>
+					<td>Give the Hungry or
+						Exhausted condition to [DICE]
+						creatures and remove any matching
+						conditions from yourself.</td>
+					<td>Go three days without
+						eating while carrying this book.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>30. Touch Spirits</td>
+					<td>Make a creature or an
+						object able to interact with ghostly
+						beings as if they were solid for
+						[DICE] turns.</td>
+					<td>Be possessed by a ghost
+						while carrying this book.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>31. Zombify</td>
+					<td>Raise the intact remains of
+						[DICE] creatures as zombies. The
+						nature/details/stats of the zombies
+						are up to the GM.</td>
+					<td>Give this book a proper
+						burial and leave for three nights.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>32. False Death</td>
+					<td>Revive an intact creature
+						that has been dead for no more
+						than [DICE] days. If the revived
+						creature dies before the spell can
+						recharge, it cannot be revived by
+						this spell again.</td>
+					<td>The recently revived
+						creature dies, or a week passes.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>33. Grasp of Darkness</td>
+					<td>Wreathe your paws in
+						soulfire for [SUM] rounds.
+						Soulfire can interact with the
+						realms of spirits, and you can
+						grapple a creature to attempt to
+						rip out its soul (if it has one).
+						Each round the creature is
+						grappled, its WIL decreases by
+						d6. If its WIL reaches 0, you
+						have ripped out its soul. If the
+						creature escapes the grapple, its
+						WIL returns to normal.</td>
+					<td>It recharges instantly,
+						but take the Mad condition.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>34. Blood Pact</td>
+					<td>For [DICE] turns, the HP of [SUM] mice is a pool. When this ends, the individuals with the lowest HP have theirs drained fully first.</td>
+					<td>Submerge in the blood of three mice, dead or alive. </td>
+					
+			
+				</tr>
+				<tr>
+					<td>35. Wings</td>
+					<td>For [DICE] hours, your hands become wings. Lose your hand slots.</td>
+					<td>Do a favour for a flying creature, no charge.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>36. Revulsion</td>
+					<td>For [SUM] turns, you are overcome with a debilitating nausea.</td>
+					<td>Serve a revolting meal on the tablet. The individual must hate it & eat it of their own free will.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>37. Muck</td>
+					<td>[DICE] creatures slots are now filled with a sticky, stinking mud. They are encumbered. Takes a full turn to clean enough to carry items, and a long rest to clean fully.</td>
+					<td>Travel in muddy terrain for a full watch. The tablet must be held uncovered in both hands and not be dirtied. </td>
+					
+			
+				</tr>
+				<tr>
+					<td>38. Iron Tooth</td>
+					<td>For [SUM] turns, your teeth and jaw become indestructible, able to bite or chew through anything.</td>
+					<td>Open a locked metal chest/box with the spell inside.
+
+					</td>
+					
+			
+				</tr>
+				<tr>
+					<td>39. Ice Knife</td>
+					<td>Create an icy blade for [DICE]
+						rounds. D8 damage, Critical: STR
+						save or take the frostbite condition.</td>
+					<td>Feed it 1d6 STR points in
+						frozen blood</td>
+					
+			
+				</tr>
+				<tr>
+					<td>40. Icy Touch</td>
+					<td>A thick ice layer spreads across a
+						touched surface, up to [DICE]+2ft in
+						radius. Creatures must make a DEX
+						save or fall prone. Lasts [DICE]
+						rounds.</td>
+					<td>Submerge in a frozen lake
+						for three days</td>
+					
+			
+				</tr>
+				<tr>
+					<td>41. Frost Ray</td>
+					<td>Deal [SUM] + [DICE] damage up to
+						24". Target makes a STR save or
+						takes the Frozen condition.</td>
+					<td>Freeze to a body part for
+						three days.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>42. Snow Ball</td>
+					<td>Shoot [DICE] snow balls up to 24".
+						They deal [SUM] DEX damage. They
+						can have different targets.</td>
+					<td>Cover in fresh fallen snow
+						for three hours.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>43. Snow
+						Storm</td>
+					<td>Unleash a snowtorm in current Hex.
+						Deals [SUM] + [DICE] damage to
+						anyone outside. STR save or take
+						the frostbite condition. It lasts
+						[DICE] watches.</td>
+					<td>Sleep under a blanket of
+						snow for three watches.</td>
+					
+			
+				</tr>
+				<tr>
+					<td>44. Wall of Ice</td>
+					<td>[DICE]+ 7ft long and 4ft high ice
+						wall rises from the ground for
+						[SUM] turns</td>
+					<td>Encase in a block of ice for
+						three days</td>
+					
+			
+				</tr>
+				<tr>
+					<td>XXX</td>
+					<td>XXX</td>
+					<td>XXX</td>
+					
+			
+				</tr>
+				<tr>
+					<td>XXX</td>
+					<td>XXX</td>
+					<td>XXX</td>
+					
+			
+				</tr>
+				<tr>
+					<td>XXX</td>
+					<td>XXX</td>
+					<td>XXX</td>
+					
+			
+				</tr>
+				<tr>
+					<td>XXX</td>
+					<td>XXX</td>
+					<td>XXX</td>
+					
+			
+				</tr>
+				<tr>
+					<td>XXX</td>
+					<td>XXX</td>
+					<td>XXX</td>
+					
+			
+				</tr>
+				<tr>
+					<td>XXX</td>
+					<td>XXX</td>
+					<td>XXX</td>
+					
+			
+				</tr>
+				<tr>
+					<td>XXX</td>
+					<td>XXX</td>
+					<td>XXX</td>
+					
+			
+				</tr>
+				
 			
 			
 				
@@ -1037,6 +1503,36 @@ Conditions can only be <a>removed</a> by
 meeting their <a>clear</a> requirement —
 usually a short, long or full rest.
 		</p>
+
+		<p><a>Exhausted</a>Give to maus who go without rest, or as a failure consequence for
+			physical exertion. <br> Clear:
+			After long rest</p>
+			<p><a>Frightened</a> Give to maus who face
+				particularly terrifying
+				creatures or magic. <br> WIL save to approach
+				source of fear. <br>
+				Clear:
+				After short rest</p>
+				<p><a>Hungry</a> Give to mice if they go a
+					day without consuming
+					a ration.<br>
+					Clear:
+					After meal</p>
+					<p><a>Injured</a> A serious condition.
+						Give to mice who take critical damage or
+						serious physical injury.<br> Disadvantage on
+						STR & DEX saves<br> Clear:
+						After full rest</p>
+						<p><a>Drained</a> A serious condition.
+							Give to mice who fail at
+							spellcasting.<br> Disadvantage on
+							WIL saves <br> Clear:
+							After full rest</p>
+								<p><a>Weakened</a> Chosen instead of STR Save on STR damage <br>Disadvantage on STR Saves <br> Clear: After full rest</p>
+								<p><a>Dazed</a> Chosen instead of STR Save on STR damage <br>Disadvantage on DEX Saves <br>Clear: After full rest </p>
+									<p><a>Miserable</a> Chosen instead of STR Save on STR damage <br>Disadvantage on WIL Saves <br>Clear: After full rest</p>
+		<p><a>Nauseous</a> Revulsion in food on smell. <br>Disadvantage on STR & WIL Saves <br>Clear: After long rest</p>
+		<p><a>Frostbite</a> Coldness in weather can lead to slow movement. <br>Disadvantage on STR & DEX Saves. Attacks are impaired <br>Clear: After long rest near a fire source</p>
 	
 	</div>
 </div>
@@ -1292,6 +1788,23 @@ removed until cleared.
 					<td>Wooden spikes </td>
 					<td>1p</td>
 				  </tr>
+
+				  <tr>
+					<td>Bandage </td>
+					<td>100p</td>
+				  </tr>
+				  <tr>
+					<td>Splint </td>
+					<td>100p</td>
+				  </tr>
+				  <tr>
+					<td>Oitment </td>
+					<td>200p</td>
+				  </tr>
+				  <tr>
+					<td>Grit Tablet </td>
+					<td>300p</td>
+				  </tr>
 			
 			  </table> 
 
@@ -1545,8 +2058,8 @@ human populations.
 			  </table> 
 
 		</p>
-<h2>Food</h2>
-		<p>To keep your mouse well, you need
+<h2>General Food</h2>
+		<p>To keep your maus well, you need
 			to eat food. Eating food with every
 			rest prevents you from having the
 			hungry condition. Rations easily do
@@ -1582,6 +2095,8 @@ human populations.
 	sautéed Brussel sprouts</p> 
 <p><a>Chocolate:</a>  After eating, the next
 	SAVE you roll has advantage.</p>
+
+
 	</div>
 </div>
 <div class="modal" id="TH">
@@ -1677,7 +2192,55 @@ supplies, shelter, etc.
 				<tr>
 					<td>Interpreter        </td>
 					<td>30p</td>
-				</tr>			
+				</tr>		
+				<tr>
+					<td>Mason        </td>
+					<td>10p</td>
+				</tr>	
+				<tr>
+					<td>Chef        </td>
+					<td>5p</td>
+				</tr>	
+				<tr>
+					<td>Steel worker        </td>
+					<td>5p</td>
+				</tr>	
+				<tr>
+					<td>Bomb maker        </td>
+					<td>10p</td>
+				</tr>	
+				<tr>
+					<td>Rope maker        </td>
+					<td>10p</td>
+				</tr>	
+				<tr>
+					<td>Carpenter        </td>
+					<td>10p</td>
+				</tr>	
+				<tr>
+					<td>Tailor        </td>
+					<td>10p</td>
+				</tr>	
+				<tr>
+					<td>Electrician        </td>
+					<td>10p</td>
+				</tr>	
+				<tr>
+					<td>Plumber        </td>
+					<td>10p</td>
+				</tr>	
+				<tr>
+					<td>Historian        </td>
+					<td>15p</td>
+				</tr>	
+				<tr>
+					<td>Tracker        </td>
+					<td>15p</td>
+				</tr>	
+				<tr>
+					<td>Negotiator        </td>
+					<td>20p</td>
+				</tr>		
 			  </table> 
 
 		</p>
@@ -1736,7 +2299,7 @@ their pips <a>selflessly</a> on improvements for the whole
 community. For every 10 pips spent this way, your maus
 earns 1 EXP.
 <h2>Level</h2>
-<p>maus start at Level 1. <br>
+<p>Maus start at Level 1. <br>
 	The following table shows the total EXP required to
 	advance each Level.
 		</p>
@@ -1746,7 +2309,7 @@ earns 1 EXP.
 			  <th>|Barb Paladin|</th>
 			  <th>|Rogue Druid|</th>
 			  <th>|Wizard Bard|</th>
-			  <th>Grit</th>
+			  <th>Grit/Skill/Prof</th>
 			  <th>EXP</th>
 			</tr>
 			<tr>
@@ -1779,7 +2342,7 @@ earns 1 EXP.
 				<td>+6</td>
 				<td>+5</td>
 				<td>+4</td>
-				<td>2</td>
+				<td>3</td>
 				<td>3000</td>
 			</tr>
 			<tr>
@@ -1787,7 +2350,7 @@ earns 1 EXP.
 				<td>+6</td>
 				<td>+5</td>
 				<td>+4</td>
-				<td>3</td>
+				<td>4</td>
 				<td>5000+ <br>(2000
 					per level)</td>
 			</tr>
@@ -1797,6 +2360,8 @@ earns 1 EXP.
 			Level, use the following procedure. <br>
 			<a>• Attribute increase:</a> Increase two different attributes by one. <br>
 			<a>• Hit Points:</a> Increase your HP total by following the table.</p>
+
+			<p>At level 2, you have a choice to gain a Grit, pick Skill, or a Proficiency Dice. </p>
 
 	
 	</div>

@@ -290,6 +290,20 @@ legend {
   overflow-y: auto;
 }
 
+.modals .modal-dialogs {
+  position: relative;
+  z-index: 12;
+  background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1em;
+  margin: 0 3em;
+  max-width: 1500px;
+  max-height: 90%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 .outline ol {
   counter-reset: legal-list;
   list-style-type: none;
